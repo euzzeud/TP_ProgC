@@ -22,7 +22,7 @@ int main() {
 
     return 0;
 } else {
-    printf("La variable 'compteur' n'est pas strictement inférieur à 10. Arrêt du programme.")
+    printf("La variable 'compteur' n'est pas strictement inférieur à 10. Arrêt du programme.");
     return 1;
 }
 
