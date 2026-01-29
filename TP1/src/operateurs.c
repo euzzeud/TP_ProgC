@@ -6,8 +6,8 @@ int main() {
     int a = 16;
     int b = 3;
 
-    printf("Valeur de a : %d\n", a)
-    printf("Valeur de b : %d\n\n", b)
+    printf("Valeur de a : %d\n", a);
+    printf("Valeur de b : %d\n\n", b);
     printf("a + b = %d\n", a + b);
     printf("a - b = %d\n", a - b);
     printf("a * b = %d\n", a * b);
