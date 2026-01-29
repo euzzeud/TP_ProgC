@@ -4,10 +4,13 @@
 j = position dans la ligne */
 
 int main() {
-    int compteur = 11;
+    int compteur = 10;
 
     if (compteur < 10 ) {
 
+    printf("=== BOUCLES ====")
+    printf("==== FOR ====")
+    
     for (int i = 1; i <= compteur; i++) {
         for (int j = 1; j <= i; j++) {
             if (j == 1 || j == i || i == compteur) {
@@ -18,6 +21,29 @@ int main() {
             }
         }
         printf("\n");
+    }
+
+    printf("=== BOUCLES ====")
+    printf("==== WHILE ====")
+
+    int i = 1;
+
+    while (i <= compteur) {
+        int j = 1;
+
+        while (j <= i) {
+
+            if (j == 1 || j == i || i == compteur) {
+                printf("* ");
+            } else {
+                printf("# ");
+            }
+
+            j++;
+        }
+
+        printf("\n");
+        i++;
     }
 
     return 0;
