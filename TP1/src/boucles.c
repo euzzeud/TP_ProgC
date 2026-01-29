@@ -8,7 +8,7 @@ int main() {
 
     if (compteur < 10 ) {
 
-    printf("=== BOUCLES ====\n");
+    printf("=== BOUCLE ====\n");
     printf("==== FOR ====\n\n");
     
     for (int i = 1; i <= compteur; i++) {
@@ -23,7 +23,7 @@ int main() {
         printf("\n");
     }
 
-    printf("\n\n=== BOUCLES ====\n");
+    printf("\n\n=== BOUCLE ====\n");
     printf("==== WHILE ====\n\n");
 
     int i = 1;
