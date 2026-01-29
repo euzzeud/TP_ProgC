@@ -4,7 +4,7 @@
 j = position dans la ligne */
 
 int main() {
-    int compteur = 10;
+    int compteur = 5;
 
     if (compteur < 10 ) {
 
